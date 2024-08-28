@@ -53,7 +53,7 @@ function App() {
 					<div className="price">
 						<input
 							type="number"
-							className="p-2 rounded border border-teal-900"
+							className="p-2 rounded border border-amber-600"
 							placeholder="Enter Price"
 							value={maxPrice}
 							onChange={handlePriceChange}
@@ -61,7 +61,7 @@ function App() {
 					</div>
 					<div className="category">
 						<select
-							className="py-2 px-4 border rounded font-medium"
+							className="py-2 px-4 border border-amber-600 rounded font-medium"
 							value={selectedCategory}
 							onChange={handleCategoryChange}
 						>
